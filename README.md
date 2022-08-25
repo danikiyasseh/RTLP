@@ -36,6 +36,10 @@ The PTB-XL dataset can be downloaded from the following link:
 
 1) [PTB-XL](https://physionet.org/content/ptb-xl/1.0.1/)
 
+### Translated Reports
+
+The original cardiology reports (in English) and their translated counterparts (a total of 7 languages) can be found in the translations folder in this repository. These reports were used for both training and evaluating our networks. 
+
 ## Training
 
 To train the model(s) in the paper, run this command:
