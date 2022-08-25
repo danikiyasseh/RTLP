@@ -32,7 +32,7 @@ We generate multilingual captions based on cardiac signals in the PTB-XL dataset
 
 ### Download
 
-The PTB-XL can be downloaded from the following link:
+The PTB-XL dataset can be downloaded from the following link:
 
 1) [PTB-XL](https://physionet.org/content/ptb-xl/1.0.1/)
 
