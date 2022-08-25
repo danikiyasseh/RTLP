@@ -1,12 +1,12 @@
-# Automated Multilingual Captioning of Cardiac Signals
+# Multilingual Captioning of Cardiac Signals
 
-This is an implementation of the experiments conducted in the manuscript: "Automated Multilingual Captioning of Cardiac Signals via a Deep Neural Network". 
+This is an implementation of the experiments conducted in the manuscript: "Let Your Heart Speak in its Mother Tongue: Multilingual Captioning of Cardiac Signals". 
 
 This implementation includes:
-1. Source code to pre-train the decoder using RTLP, and various other methods (e.g., MARGE, ELECTRA)
-2. Source code to pre-train the encoder using supervised learning
-3. Source code to perform cardiac signal captioning 
-4. Source code to evaluate and visualize the results
+1. Source code to pre-train a decoder network using RTLP, and various other methods (e.g., MARGE, MLM)
+2. Source code to pre-train an encoder network using supervised learning
+3. Source code to perform multilingual cardiac signal captioning (in 7 languages!)
+4. Source code to evaluate and visualize the results (BLEU, ROUGE, etc.)
 
 # Requirements
 
