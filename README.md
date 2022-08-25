@@ -24,12 +24,30 @@ The code requires the following:
 * wfdb
 * Seaborn
 
-# Dataset
+## Summary
 
-The experiments involve the PTB-XL dataset which comprises electrocardiogram (ECG) signals alongside cardiac arrhythmia annotations and clinical textual reports. We translate the reports into seven different languages in order to allow for a multilingual setting. 
+We generate multilingual captions based on cardiac signals in the PTB-XL dataset. Since the PTB-XL dataset only contains reports in Enlgish, we first translate the reports into seven different languages to allow for a multilingual experimental setup. In this implementation, you can conduct the fine-tuning experiments based on an encoder which has been pre-trained in a supervised manner and a decoder pre-trained using RTLP.
 
-# Getting Started
+## Datasets
 
-## Running the code
+### Download
 
-In this implementation, you can conduct the fine-tuning experiments based on an encoder which has been pre-trained in a supervised manner and a decoder pre-trained using RTLP.
+The PTB-XL can be downloaded from the following link:
+
+1) [PTB-XL](https://physionet.org/content/ptb-xl/1.0.1/)
+
+## Training
+
+To train the model(s) in the paper, run this command:
+
+```
+python run_experiments.py
+```
+
+## Evaluation
+
+To evaluate the model(s) in the paper, run this command:
+
+```
+python run_experiments.py
+```
